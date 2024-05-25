@@ -1,0 +1,67 @@
+describe('Creacion_de_un_member', () => {
+  beforeEach(()=>{
+    cy.visit('http://54.188.89.84/ghost/')
+    cy.wait(5000)
+    cy.screenshot('./Screens_creacion_de_un_member/img1');
+    
+ })
+ it('Login', ()=>{
+  cy.get('#identification').type('user@example.com')
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img2');
+  cy.get('#password').type('123456789**')
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img3');
+  cy.get('#ember5').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img4');
+  cy.get('a[data-test-nav=members]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img5');
+  cy.get('a[data-test-new-member-button=true]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img6');
+  cy.get('#member-name').type('Prueba cypress 1')
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img7');
+  cy.get('#member-email').type('pcypress1@gmail.com')
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img8');
+  cy.get('button[data-test-button=save]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img9');
+  cy.get('svg.w3.mr1.fill-darkgrey').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img10');
+  cy.get('a.ember-view.dropdown-item.user-menu-signout').click()
+  cy.wait(5000)
+  cy.screenshot('./Screens_creacion_de_un_member/img11');
+  cy.get('#identification').type('user@example.com')
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img12');
+  cy.get('#password').type('123456789**')
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img13');
+  cy.get('#ember5').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img14');
+  cy.get('a[data-test-nav=members]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img15');
+  cy.contains('pcypress1@gmail.com').should('exist')
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img16');
+  cy.get("tbody tr").click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img17');
+  cy.get('button[data-test-button=member-actions]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img18');
+  cy.get('button[data-test-button=delete-member]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img19');
+  cy.get('button[data-test-button=confirm]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_creacion_de_un_member/img20');
+})
+})

@@ -1,0 +1,7 @@
+{
+  "email": "user@example.com",
+  "invalid_email": "user@example",
+  "wrong_email": "user123@example.com",
+  "password": "123456789**",
+  "invalid_password": "111111111"
+}

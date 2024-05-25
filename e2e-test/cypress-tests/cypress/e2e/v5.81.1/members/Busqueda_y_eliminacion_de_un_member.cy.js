@@ -1,0 +1,88 @@
+describe('Busqueda_y_eliminacion_de_un_member', () => {
+  beforeEach(()=>{
+    cy.visit('http://54.188.89.84/ghost/')
+    cy.wait(5000)
+    cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img1.png');
+    
+ })
+ it('Login', ()=>{
+  cy.get('#identification').type('user@example.com')
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img2.png');
+  cy.get('#password').type('123456789**')
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img3.png');
+  cy.get('#ember5').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img4.png');
+  cy.get('a[data-test-nav=members]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img5.png');
+  cy.get('a[data-test-new-member-button=true]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img6.png');
+  cy.get('#member-name').type('Busqueda cypress 1')
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img7.png');
+  cy.get('#member-email').type('Bcypress1@gmail.com')
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img8.png');
+  cy.get('button[data-test-button=save]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img9.png');
+  cy.get('a[data-test-nav=members]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img10.png');
+  cy.get('a[data-test-new-member-button=true]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img11.png');
+  cy.get('#member-name').type('Busqueda cypress 2')
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img12.png');
+  cy.get('#member-email').type('Bcypress2@gmail.com')
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img13.png');
+  cy.get('button[data-test-button=save]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img14.png');
+  cy.get('a[data-test-nav=members]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img15.png');
+  cy.get('input[data-test-input=members-search]').type('Busqueda cypress')
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img16.png');
+  cy.get('tbody:nth-child(2)').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img17.png');
+  cy.get('button[data-test-button=member-actions]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img18.png');
+  cy.get('button[data-test-button=delete-member]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img19.png');
+  cy.get('button[data-test-button=confirm]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img20.png');
+  cy.get('a[data-test-nav=dashboard]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img21.png');
+  cy.get('a[data-test-nav=members]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img22.png');
+  cy.contains('Bcypress1@gmail.com').should('not.exist')
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img23.png');
+  cy.get("tbody tr").click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img24');
+  cy.get('button[data-test-button=member-actions]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img25');
+  cy.get('button[data-test-button=delete-member]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img26');
+  cy.get('button[data-test-button=confirm]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_busqueda_y_eliminacion_de_un_member/img27');
+})
+})

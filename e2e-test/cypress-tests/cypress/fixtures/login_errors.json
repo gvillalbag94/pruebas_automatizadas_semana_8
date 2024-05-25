@@ -1,0 +1,6 @@
+{
+  "incorrect_password": "Your password is incorrect.",
+  "incorrect_email": "There is no user with that email address.",
+  "invalid_email": "Please fill out the form to sign in.",
+  "empty_form": "Please fill out the form to sign in."
+}

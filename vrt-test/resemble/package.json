@@ -1,0 +1,17 @@
+{
+  "name": "ghost-e2e",
+  "version": "1.0.0",
+  "description": "* Victor Alfonso Duarte Quintero - v.duarteq@uniandes.edu.co\r * Juan Esteban Herrera - je.herrerap@uniandes.edu.co\r * Leonardo Cardenas - dl.riverac1@uniandes.edu.co\r * Felipe Villalba Gil - g.villalbag@uniandes.edu.co",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "playwright": "^1.44.0",
+    "resemblejs": "^5.0.0"
+  }
+}

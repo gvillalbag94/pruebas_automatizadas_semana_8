@@ -1,0 +1,11 @@
+{
+    "url": "http://54.188.89.84/ghost/",
+    "headless": false,
+    "depthLevels": 1,
+    "inputValues": true,
+    "values": {
+        "identification": "user@example.com",
+        "password": "123456789**"
+    },
+    "browsers": ["chromium"]
+}

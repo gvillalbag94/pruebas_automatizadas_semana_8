@@ -1,0 +1,106 @@
+describe('Editar_un_member_creado', () => {
+  beforeEach(()=>{
+    cy.visit('http://54.188.89.84/ghost/')
+    cy.wait(5000)
+    cy.screenshot('./Screens_editar_un_member_creado/img1');
+    
+ })
+ it('Login', ()=>{
+  cy.get('#identification').type('user@example.com')
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img2');
+  cy.get('#password').type('123456789**')
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img3');
+  cy.get('#ember5').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img4');
+  cy.get('a[data-test-nav=members]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img5');
+  cy.get('a[data-test-new-member-button=true]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img6');
+  cy.get('#member-name').type('Prueba cypress 4')
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img7');
+  cy.get('#member-email').type('pcypress4@gmail.com')
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img8');
+  cy.get('button[data-test-button=save]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img9');
+  cy.get('a[data-test-nav=members]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img10');
+  cy.get('a[data-test-new-member-button=true]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img11');
+  cy.get('#member-name').type('Prueba cypress 5')
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img12');
+  cy.get('#member-email').type('pcypress5@gmail.com')
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img13');
+  cy.get('button[data-test-button=save]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img14');
+  cy.get('a[data-test-nav=members]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img15');
+  cy.reload()
+  cy.wait(5000)
+  cy.screenshot('./Screens_editar_un_member_creado/img16');
+  cy.get('tbody:nth-child(2)').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img17');
+  cy.get('#member-name').clear()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img18');
+  cy.get('#member-name').type('Editado cypress')
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img19');
+  cy.get('#member-email').clear()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img20');
+  cy.get('#member-email').type('editadocypress@gmail.com')
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img21');
+  cy.get('button[data-test-button=save]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img22');
+  cy.get('a[data-test-nav=dashboard]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img23');
+  cy.get('a[data-test-nav=members]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img24');
+  cy.contains('editadocypress@gmail.com').should('exist')
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img25');
+  cy.get("tbody:nth-child(2)").click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img26');
+  cy.get('button[data-test-button=member-actions]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img27');
+  cy.get('button[data-test-button=delete-member]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img28');
+  cy.get('button[data-test-button=confirm]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img29');
+  cy.get("tbody tr").click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img30');
+  cy.get('button[data-test-button=member-actions]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img31');
+  cy.get('button[data-test-button=delete-member]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img32');
+  cy.get('button[data-test-button=confirm]').click()
+  cy.wait(2000)
+  cy.screenshot('./Screens_editar_un_member_creado/img33');
+})
+})

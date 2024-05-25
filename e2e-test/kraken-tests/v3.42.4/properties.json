@@ -1,0 +1,5 @@
+{
+    "HOST": "http://52.42.171.94:3001/ghost/",
+    "EMAIL": "user@example.com",
+    "PASSWORD": "123456789**"
+}

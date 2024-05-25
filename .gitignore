@@ -1,0 +1,29 @@
+## Ignorar la carpteta de modulos node para e2e test
+e2e-test/cypress-tests/cypress/screenshots
+e2e-test/kraken-tests/v3.42.4/node_modules
+e2e-test/kraken-tests/v3.42.4/package-lock.json
+e2e-test/kraken-tests/v5.81.1/node_modules
+e2e-test/kraken-tests/v5.81.1/package-lock.json
+
+## Ignorar la carpteta de modulos node para la generacion de data test
+generate-data-test/cypress/screenshots
+generate-data-test/cypress/downloads
+generate-data-test/node_modules
+generate-data-test/package-lock.json
+
+## Ignorar la carpteta de modulos node para las pruebas explorativas test
+explorative-test/monkey-test/node_modules
+explorative-test/monkey-test/cypress/screenshots
+explorative-test/monkey-test/results
+explorative-test/monkey-test/package-lock.json
+explorative-test/ripping-test/node_modules
+explorative-test/ripping-test/results
+explorative-test/ripping-test/package-lock.json
+
+## Ignorar la carpteta de modulos node para el vrt test
+vrt-test/backstop-tests/node_modules
+vrt-test/backstop-tests/backstop_data
+vrt-test/backstop-tests/package-lock.json
+vrt-test/resemble/node_modules
+vrt-test/resemble/results
+vrt-test/resemble/package-lock.json
