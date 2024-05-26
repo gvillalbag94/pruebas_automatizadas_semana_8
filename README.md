@@ -27,7 +27,7 @@ Requisitos y versiones:
  
 * Monkey tests:
 
-(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA _, SEGUN EL PLAN DE PRUEBAS)
+(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA 2, SEGUN EL PLAN DE PRUEBAS)
 
 Para la ejecición de las pruebas de reconocimiento con monkey test el equipo ha desarrollado y dejado a disposición una herramienta que permite realizar monkey test implmenetando la herramienta Cypress.
 
@@ -64,7 +64,7 @@ SMART MONKEY:
 
 * Ripping tests:
 
-(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA _, SEGUN EL PLAN DE PRUEBAS)
+(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA 2, SEGUN EL PLAN DE PRUEBAS)
 
 Para la ejecición de las pruebas de reconocimiento con ripping test el equipo ha desarrollado y dejado a disposición una herramienta que permite realizar ripping test implmenetando la herramienta RiPuppet.
 
@@ -96,7 +96,7 @@ Instalación y uso de la herramienta:
 
 * Cypress Test:
 
-(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA _, SEGUN EL PLAN DE PRUEBAS)
+(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA 3 y 4, SEGUN EL PLAN DE PRUEBAS)
 
 Para la ejecición de las pruebas de e2e con Cypress que el equipo ha desarrollado y dejado a disposición se deben seguir los siguientes pasos.
 
@@ -123,7 +123,7 @@ Instalación y uso de la herramienta:
 
 * Kraken Test:
 
-(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA _, SEGUN EL PLAN DE PRUEBAS)
+(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA 3 y 4, SEGUN EL PLAN DE PRUEBAS)
 
 Para la ejecición de las pruebas de e2e con la herramienta Kraken que el equipo ha desarrollado y dejado a disposición se deben seguir los siguientes pasos.
 
@@ -224,7 +224,7 @@ Instalación y uso de la herramienta:
 
 * Resemble:
 
-(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA _, SEGUN EL PLAN DE PRUEBAS)
+(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA 5 y 6, SEGUN EL PLAN DE PRUEBAS)
 
 Para la ejecución de las pruebas de VRT con la herramienta Resemble que el equipo ha desarrollado y dejado a disposición se deben seguir los siguientes pasos.
 
@@ -258,7 +258,7 @@ Al correr el http-server, se debe entrar a una de las URLs generadas para visual
 
 * Backstop tests:
 
-(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA _, SEGUN EL PLAN DE PRUEBAS)
+(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA 5 y 6, SEGUN EL PLAN DE PRUEBAS)
 
 Para la ejecución de las pruebas de VRT con la herramienta BackstopJs que el equipo ha desarrollado y dejado a disposición se deben seguir los siguientes pasos.
 
@@ -299,7 +299,7 @@ Al correr "backstop test" y finalizar de manera exitosa, se abre una ventana del
 
 ### Pruebas Generación de data:
 
-(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA _, SEGUN EL PLAN DE PRUEBAS)
+(SE HACE USO DE ESTA HERRAMIENTA EN LA SEMANA 7, SEGUN EL PLAN DE PRUEBAS)
 
 Para la ejecución de las pruebas de generación de datos con la herramienta Cypress que el equipo ha desarrollado y dejado a disposición se deben seguir los siguientes pasos.
 
