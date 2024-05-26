@@ -13,6 +13,8 @@
 
 ## Descripción estrategia de pruebas:
 
+En el siguiente [Link](https://drive.google.com/file/d/1TztlfVnlDvYB9dI3JWHtuRyXb7mVYbQX/view?usp=sharing) se encuentra la documentación de la estrategia de pruebas.
+
 ## Inventario de pruebas exploratorias:
 
 ## Herramientas implementadas para la ejecución de la estrategia de pruebas:
