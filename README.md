@@ -321,5 +321,5 @@ Para la ejecución de las pruebas de generación de datos con la herramienta Cyp
 
 ## Reporte de inicidencias encontradas:
 
-El registro de incidecias encontradas se reporta en la sección de (Issues)[https://github.com/gvillalbag94/pruebas_automatizadas_semana_8/issues] del correspondiente repositorio.
+El registro de incidecias encontradas se reporta en la sección de [Issues](https://github.com/gvillalbag94/pruebas_automatizadas_semana_8/issues) del correspondiente repositorio.
 
