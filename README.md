@@ -9,7 +9,7 @@
 
 ## Video presentación estrategia y resultado:
 
-()[]
+En el siguiente [Link](https://youtu.be/Wc1yRpyX4Xc) se encuentra el video con la descripción de la estrategia de pruebas.
 
 ## Descripción estrategia de pruebas:
 
