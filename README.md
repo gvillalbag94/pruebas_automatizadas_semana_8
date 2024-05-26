@@ -17,6 +17,8 @@ En el siguiente [Link](https://drive.google.com/file/d/1TztlfVnlDvYB9dI3JWHtuRyX
 
 ## Inventario de pruebas exploratorias:
 
+En el siguiente [Link]([https://drive.google.com/file/d/1TztlfVnlDvYB9dI3JWHtuRyXb7mVYbQX/view?usp=sharing](https://docs.google.com/spreadsheets/d/1MXKMYwWKy0TtBdJNowSXgBDqVVTug2MA/edit?usp=sharing&ouid=111822694851559505489&rtpof=true&sd=true)) se encuentra el inventarion de pruebas manuales ejecutadas.
+
 ## Herramientas implementadas para la ejecución de la estrategia de pruebas:
 
 Requisitos y versiones:
